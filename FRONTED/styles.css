@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 15px;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: #004080;
+}
+
+/* Icons in event list */
+ul li i {
+  margin-right: 10px;
+  color: #004080;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paper Presentation Registration</title>
+  <link rel="stylesheet" href="paper.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📄 Paper Presentation 2025</h1>
+      <p><strong>Date:</strong> Oct 15, 2025<br><strong>Venue:</strong> XYZ University Auditorium</p>
+    </header>
+
+    <section class="info">
+      <h2>About the Event</h2>
+      <p>Join us for an exciting session of innovation and ideas! Showcase your research, collaborate with peers, and get recognized.</p>
+    </section>
+
+    <section class="form-section">
+      <h2>Register Now</h2>
+      <form id="registrationForm">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="text" name="college" placeholder="College Name" required />
+        <input type="text" name="paperTitle" placeholder="Paper Title" required />
+        <button type="submit">Submit Registration</button>
+      </form>
+      <p id="message" class="message"></p>
+    </section>
+  </div>
+
+  <script src="paper.js"></script>
+</body>
+</html>
